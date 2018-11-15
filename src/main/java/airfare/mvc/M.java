@@ -12,7 +12,7 @@ import java.math.BigDecimal;
  */
 public class M {
     public static void main(String[] args) {
-        Ticket ticket =
+        Copyable ticket =
                 new Ticket(new User("Ivan", "Ivanov"),
                         new Route("Kyiv", "Warsaw"), new BigDecimal(200.0),
                         CabineType.B_CLASS, true);
@@ -25,8 +25,8 @@ public class M {
 
         director.setBuilder(new TicketBuilderImpl(prototype));
 
-        ticket = director.buildTicket();
+        Ticket ticket1 = director.buildTicket();
 
-        System.out.println(ticket.toString());
+        System.out.println(ticket1.toString());
     }
 }
