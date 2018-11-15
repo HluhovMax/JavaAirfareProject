@@ -1,9 +1,6 @@
 package airfare.mvc;
 
-import airfare.mvc.model.Director;
-import airfare.mvc.model.Ticket;
-import airfare.mvc.model.TicketBuilderImpl;
-import airfare.mvc.model.TicketFactory;
+import airfare.mvc.model.*;
 import airfare.mvc.model.staff.CabineType;
 import airfare.mvc.model.staff.Route;
 import airfare.mvc.model.staff.User;
@@ -24,11 +21,9 @@ public class M {
 
         Ticket prototype = ticketFactory.cloneTicket();
 
-        TicketBuilderImpl ticketBuilder = new TicketBuilderImpl();
-        ticketBuilder.setCopy(prototype);
         Director director = new Director();
 
-        director.setBuilder(ticketBuilder);
+        director.setBuilder(new TicketBuilderImpl(prototype));
 
         ticket = director.buildTicket();
 

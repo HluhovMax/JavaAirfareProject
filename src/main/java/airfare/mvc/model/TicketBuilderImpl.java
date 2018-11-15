@@ -6,7 +6,7 @@ package airfare.mvc.model;
 public class TicketBuilderImpl extends TicketBuilder {
     Ticket copy;
 
-    public void setCopy(Ticket copy) {
+    public TicketBuilderImpl(Ticket copy) {
         this.copy = copy;
     }
 
