@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 /**
  * Created by Max Hluhov on 12.11.2018.
  */
-public class Ticket implements Copyable{
+public class Ticket {
     private User user;
     private Route route;
     private BigDecimal price;
@@ -78,10 +78,4 @@ public class Ticket implements Copyable{
                 '}';
     }
 
-    @Override
-    public Object copy() {
-        Ticket copy =
-                new Ticket(user, route, price, cabineType, status);
-        return copy;
-    }
 }
