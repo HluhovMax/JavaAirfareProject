@@ -63,19 +63,13 @@ public class Ticket {
         return cabineType;
     }
 
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
 
     @Override
     public String toString() {
-        return "Ticket{" +
-                "user=" + user +
-                ", route=" + route +
-                ", price=" + price +
-                ", cabineType=" + cabineType +
-                ", status=" + status +
-                '}';
+        return ""+user + route + price + cabineType + status + "/";
     }
 
 }

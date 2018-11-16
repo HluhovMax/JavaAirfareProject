@@ -1,5 +1,7 @@
 package airfare.mvc.dao;
 
+import airfare.mvc.dao.prototype.JavaIOUtil;
+import airfare.mvc.dao.prototype.JavaIOUtilFactory;
 import airfare.mvc.model.staff.User;
 
 import java.io.File;
@@ -8,18 +10,17 @@ import java.util.List;
 /**
  * Created by Max Hluhov on 16.11.2018.
  */
-public class UserRepository {
-    private JavaIOUtil<User> util;
+public class UserRepository implements Repository<User>{
+    private JavaIOUtilFactory<User> factory;
     private File file =
             new File("src\\main\\resources\\files\\users.txt");
 
     public void save(User user) {
-        util = new JavaIOUtil<>(file, user);
-        JavaIOUtil<User> copy = (JavaIOUtil<User>) util.copy();
-        List<String> list = copy.reader();
+        factory = new JavaIOUtilFactory<>(file, user);
+        JavaIOUtil<User> copy = factory.cloneJIOU();
+        List < String > list = copy.reader();
         String userToSave = user.getName() + "," + user.getLastName() + "/";
         list.add(userToSave);
-        util.writer(userToSave);
+        copy.writer(userToSave);
     }
-    
 }

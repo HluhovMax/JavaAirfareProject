@@ -1,6 +1,8 @@
 package airfare.mvc.model.staff;
 
-import java.util.Calendar;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Created by Max Hluhov on 12.11.2018.
@@ -8,17 +10,18 @@ import java.util.Calendar;
 public class Route {
     private String from;
     private String to;
-    private Calendar depatureDate;
-    private Calendar arrivalDate;
+    private SimpleDateFormat spf;
+    private Date depatureDate;
+    private Date arrivalDate;
 
-    public Route() {
-    }
-
-    public Route(String from, String to) {
+    public Route(String from, String to, String dep, String arr) throws ParseException {
         this.from = from;
         this.to = to;
-        depatureDate = Calendar.getInstance();
-        arrivalDate = Calendar.getInstance();
+        spf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
+        depatureDate = new Date();
+        arrivalDate = new Date();
+        depatureDate = spf.parse(dep);
+        arrivalDate = spf.parse(arr);
     }
 
     public String getFrom() {
@@ -37,29 +40,32 @@ public class Route {
         this.to = to;
     }
 
-    public Calendar getDepatureDate() {
+    public SimpleDateFormat getSpf() {
+        return spf;
+    }
+
+    public void setSpf(SimpleDateFormat spf) {
+        this.spf = spf;
+    }
+
+    public Date getDepatureDate() {
         return depatureDate;
     }
 
-    public void setDepatureDate(Calendar depatureDate) {
+    public void setDepatureDate(Date depatureDate) {
         this.depatureDate = depatureDate;
     }
 
-    public Calendar getArrivalDate() {
+    public Date getArrivalDate() {
         return arrivalDate;
     }
 
-    public void setArrivalDate(Calendar arrivalDate) {
+    public void setArrivalDate(Date arrivalDate) {
         this.arrivalDate = arrivalDate;
     }
 
     @Override
     public String toString() {
-        return "Route{" +
-                "from='" + from + '\'' +
-                ", to='" + to + '\'' +
-                ", depatureDate=" + depatureDate +
-                ", arrivalDate=" + arrivalDate +
-                '}';
+        return from + "," + to + "," + depatureDate + "," + arrivalDate;
     }
 }

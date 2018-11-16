@@ -1,4 +1,4 @@
-package airfare.mvc.dao;
+package airfare.mvc.dao.prototype;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -35,10 +35,10 @@ public class JavaIOUtil<T> implements Copyable{
         return items;
     }
 
-    public void writer(String userToSave) {
+    public void writer(String itemToSave) {
         try (FileWriter writer =
-                     new FileWriter(file)) {
-            writer.write(userToSave + "\n");
+                     new FileWriter(file, true)) {
+            writer.write(itemToSave + "\n");
         } catch (IOException e) {
             e.printStackTrace();
         }

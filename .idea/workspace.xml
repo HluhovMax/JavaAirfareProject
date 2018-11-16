@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11bed921-44f8-4539-9b99-a279696a672b" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\src\main\java\airfare\mvc\model\Copyable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\src\main\java\airfare\mvc\model\TicketFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\src\main\resources\files\UserTicketData.txt" afterPath="" />
+    <list default="true" id="11bed921-44f8-4539-9b99-a279696a672b" name="Default" comment="change ticket type from Ticket to Copyable">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java" />
+      <change type="DELETED" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\src\main\java\airfare\mvc\dao\Copyable.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\src\main\java\airfare\mvc\dao\JavaIOUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\src\main\java\airfare\mvc\view\RouteView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\target\classes\airfare\mvc\view\RouteView.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\target\classes\airfare\mvc\dao\JavaIOUtil.class" afterPath="C:\Users\Max Hluhov\IdeaProjects\JavaAirfareProject\target\classes\airfare\mvc\dao\JavaIOUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/M.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/M.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/model/staff/Route.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/model/staff/Route.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/UserRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/M.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/M.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/files/users.txt" afterPath="$PROJECT_DIR$/src/main/resources/files/users.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/files/users.txt" afterPath="$PROJECT_DIR$/target/classes/files/users.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaAirfareProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,58 +46,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="users.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/files/users.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="189">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Copyable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Copyable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24179104" vertical-offset="0" max-vertical-offset="670">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaIOUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="1566">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="837">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="M.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/M.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="891">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tickets.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/files/tickets.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,7 +100,6 @@
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/files/TicketsDataBase.txt" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Route.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/resources/files/UserTicketData.txt" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/CabineType.java" />
@@ -132,18 +107,26 @@
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Director.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/view/RouteView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaOIUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/files/ticket.csv" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Copyable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/M.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/files/users.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/routes.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtilFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/users.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/M.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/tickets.txt" />
       </list>
     </option>
   </component>
@@ -251,10 +234,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -279,78 +258,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="airfare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaAirfareProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaAirfareProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airfare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaAirfareProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaAirfareProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="airfare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -672,7 +579,7 @@
       <workItem from="1542290655732" duration="14585000" />
       <workItem from="1542364332192" duration="122000" />
       <workItem from="1542378375493" duration="6145000" />
-      <workItem from="1542387667150" duration="1549000" />
+      <workItem from="1542387667150" duration="8221000" />
     </task>
     <task id="LOCAL-00001" summary="initial comit">
       <created>1542296999757</created>
@@ -696,7 +603,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47775000" />
+    <option name="totallyTimeSpent" value="54447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -705,7 +612,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -713,10 +620,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31805158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31805158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -752,7 +659,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="change ticket type from Ticket to Copyable" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -768,7 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Copyable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="378">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
@@ -776,12 +685,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#reader#0;class#JavaIOUtil#0" expanded="false" />
+            <element signature="method#writer#0;class#JavaIOUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,6 +701,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="729">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#216#217#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -805,6 +720,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="810">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -812,23 +731,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="999">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="378">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#reader#0;class#JavaIOUtil#0" expanded="false" />
+            <element signature="method#writer#0;class#JavaIOUtil#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/view/RouteView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="999">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -836,6 +751,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="729">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#216#217#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -851,6 +770,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="810">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -858,15 +781,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="999">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#reader#0;class#JavaIOUtil#0" expanded="false" />
+            <element signature="method#writer#0;class#JavaIOUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,6 +823,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="783">
           <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -926,6 +857,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="621">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -948,6 +884,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,24 +922,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/CabineType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/routes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24179104" vertical-offset="0" max-vertical-offset="670">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="972">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6164383" vertical-offset="702" max-vertical-offset="1485">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,34 +934,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="729">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#216#217#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="810">
+        <state vertical-scroll-proportion="0.80597013" vertical-offset="0" max-vertical-offset="810">
           <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#195#196#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="999">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.19402985" vertical-offset="86" max-vertical-offset="999">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/view/RouteView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtilFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="999">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.32876712" vertical-offset="0" max-vertical-offset="657">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28723404" vertical-offset="0" max-vertical-offset="1701">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="972">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24179104" vertical-offset="0" max-vertical-offset="670">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1050,10 +1005,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/CabineType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="443" max-vertical-offset="891">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+          <folding>
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="936" max-vertical-offset="1593">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+          <folding>
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1104" max-vertical-offset="1539">
+          <caret line="68" column="71" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="329" max-vertical-offset="999">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="1107">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#reader#0;class#JavaIOUtil#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="837">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1062,28 +1082,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="567">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="891">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/tickets.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1566">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Copyable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24179104" vertical-offset="0" max-vertical-offset="670">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
