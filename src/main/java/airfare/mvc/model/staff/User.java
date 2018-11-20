@@ -4,12 +4,25 @@ package airfare.mvc.model.staff;
  * Created by Max Hluhov on 13.11.2018.
  */
 public class User {
+    private Long id;
     private String name;
     private String lastName;
 
-    public User(String name, String lastName) {
+    public User() {
+    }
+
+    public User(Long id, String name, String lastName) {
+        this.id = id;
         this.name = name;
         this.lastName = lastName;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -30,6 +43,6 @@ public class User {
 
     @Override
     public String toString() {
-        return name + "," + lastName;
+        return id + "," + name + "," + lastName;
     }
 }

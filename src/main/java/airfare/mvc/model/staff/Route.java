@@ -8,20 +8,38 @@ import java.util.Date;
  * Created by Max Hluhov on 12.11.2018.
  */
 public class Route {
+    private Long id;
     private String from;
     private String to;
     private SimpleDateFormat spf;
     private Date depatureDate;
     private Date arrivalDate;
 
-    public Route(String from, String to, String dep, String arr) throws ParseException {
+    public Route() {
+    }
+
+    public Route(Long id, String from, String to, String dep, String arr) {
+        this.id = id;
         this.from = from;
         this.to = to;
         spf = new SimpleDateFormat("dd-M-yyyy hh:mm:ss");
         depatureDate = new Date();
         arrivalDate = new Date();
-        depatureDate = spf.parse(dep);
-        arrivalDate = spf.parse(arr);
+        try {
+            depatureDate = spf.parse(dep);
+            arrivalDate = spf.parse(arr);
+        } catch (ParseException e) {
+            System.out.println();
+        }
+
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFrom() {
@@ -66,6 +84,6 @@ public class Route {
 
     @Override
     public String toString() {
-        return from + "," + to + "," + depatureDate + "," + arrivalDate;
+        return id + "," + from + "," + to + "," + depatureDate + "," + arrivalDate;
     }
 }

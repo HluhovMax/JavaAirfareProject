@@ -3,7 +3,7 @@ package airfare.mvc.model;
 /**
  * Created by Max Hluhov on 15.11.2018.
  */
-public class TicketBuilderImpl extends TicketBuilder {
+public class TicketBuilderImpl extends AbstractTicketBuilder {
 
 
     public TicketBuilderImpl(Ticket ticket) {

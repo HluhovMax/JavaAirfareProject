@@ -4,9 +4,9 @@ package airfare.mvc.model;
  * Created by Max Hluhov on 15.11.2018.
  */
 public class Director {
-    TicketBuilder builder;
+    AbstractTicketBuilder builder;
 
-    public void setBuilder(TicketBuilder builder) {
+    public void setBuilder(AbstractTicketBuilder builder) {
         this.builder = builder;
     }
 

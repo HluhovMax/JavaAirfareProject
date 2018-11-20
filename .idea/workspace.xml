@@ -2,36 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bed921-44f8-4539-9b99-a279696a672b" name="Default" comment="change ticket type from Ticket to Copyable">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaAirfareProject.iml" afterPath="$PROJECT_DIR$/JavaAirfareProject.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/M.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/M.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Repository.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtilFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Director.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Director.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/AbstractTicketBuilder.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/routes.txt" afterPath="$PROJECT_DIR$/src/main/resources/files/routes.csv" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/tickets.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/users.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" afterPath="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/routes.csv" afterPath="$PROJECT_DIR$/src/main/resources/files/routes.csv" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/tickets.csv" afterPath="$PROJECT_DIR$/src/main/resources/files/tickets.csv" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/user.csv" afterPath="$PROJECT_DIR$/src/main/resources/files/user.csv" />
       <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/M.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/M.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/Repository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/RouteRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/RouteRepository.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/RouteRepository.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/TicketRepository.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/TicketRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/UserRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/prototype/JavaIOUtil.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/prototype/JavaIOUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/prototype/JavaIOUtilFactory.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/model/TicketBuilder.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/model/TicketBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/dao/UserRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/model/Ticket.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/model/Ticket.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/model/TicketBuilderImpl.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/model/TicketBuilderImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/routes.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/tickets.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/files/users.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/model/staff/Route.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/model/staff/Route.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/airfare/mvc/model/staff/User.class" afterPath="$PROJECT_DIR$/target/classes/airfare/mvc/model/staff/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/routes.csv" afterPath="$PROJECT_DIR$/target/classes/files/routes.csv" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/tickets.csv" afterPath="$PROJECT_DIR$/target/classes/files/tickets.csv" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/user.csv" afterPath="$PROJECT_DIR$/target/classes/files/user.csv" />
     </list>
     <ignored path="JavaAirfareProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,77 +47,12 @@
     <favorites_list name="JavaAirfareProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TicketRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RouteRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="44" column="9" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="M.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/M.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="36" column="52" lean-forward="false" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1542474584016" expanded="true" signature="982:1162" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/files/user.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -140,9 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/airfare/model/Cart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/model/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/model/CabineType.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/model/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/repositories/TicketRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/repositories/GenericRepository.java" />
@@ -171,23 +98,29 @@
         <option value="$PROJECT_DIR$/src/main/resources/files/routes.txt" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/JavaIOUtilFactory.java" />
         <option value="$PROJECT_DIR$/src/main/resources/files/users.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" />
         <option value="$PROJECT_DIR$/src/main/resources/files/tickets.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/files/routes.cvs" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Director.java" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/files/tickets.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/files/routes.csv" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/user.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/ConsoleHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/service/RouteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/AbstractTicketBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/routes.csv" />
+        <option value="$PROJECT_DIR$/src/main/resources/files/tickets.csv" />
         <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/M.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java" />
       </list>
     </option>
   </component>
@@ -356,7 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -417,8 +350,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="airfare" type="462c0819:PsiDirectoryNode" />
               <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaAirfareProject" type="b2602c69:ProjectViewProjectNode" />
@@ -440,8 +372,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -761,7 +693,10 @@
       <workItem from="1542387667150" duration="9414000" />
       <workItem from="1542397449475" duration="65000" />
       <workItem from="1542397650276" duration="6604000" />
-      <workItem from="1542462713865" duration="10790000" />
+      <workItem from="1542462713865" duration="16443000" />
+      <workItem from="1542540511294" duration="597000" />
+      <workItem from="1542635483015" duration="8941000" />
+      <workItem from="1542720312905" duration="10667000" />
     </task>
     <task id="LOCAL-00001" summary="initial comit">
       <created>1542296999757</created>
@@ -788,7 +723,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73099000" />
+    <option name="totallyTimeSpent" value="98957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -802,11 +737,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3170029" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4020173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32853025" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23676248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -822,6 +757,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="100" y="100" width="1166" height="568" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
@@ -848,7 +784,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -857,44 +793,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/tickets.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/users.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/Director.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/AbstractTicketBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
@@ -929,7 +828,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/AbstractTicketBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
@@ -1054,33 +953,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/CabineType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="68" column="71" lean-forward="false" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/Repository.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,19 +993,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/JavaIOUtilFactory.java" />
     <entry file="file://$PROJECT_DIR$/routes.cvs" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/files/users.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/routes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/routes.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/prototype/Copyable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,19 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-988">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1360#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1156,38 +1012,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/CabineType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="71" column="16" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+        <state relative-caret-position="162">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/ConsoleHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/service/RouteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="615">
           <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#389#390#0" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1195,10 +1065,109 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/Director.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/AbstractTicketBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
           <folding>
-            <element signature="e#178#179#0" expanded="false" />
-            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#375#376#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/user.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/TicketBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/routes.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="method#save#0;class#RouteRepository#0" expanded="false" />
+            <element signature="method#getById#0;class#RouteRepository#0" expanded="false" />
+            <element signature="method#delete#0;class#RouteRepository#0" expanded="false" />
+            <element signature="method#update#0;class#RouteRepository#0" expanded="false" />
+            <element signature="method#getAll#0;class#RouteRepository#0" expanded="false" />
+            <element signature="method#findRoute#0;class#RouteRepository#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <element signature="method#save#0;class#TicketRepository#0" expanded="false" />
+            <element signature="method#getById#0;class#TicketRepository#0" expanded="false" />
+            <element signature="method#delete#0;class#TicketRepository#0" expanded="false" />
+            <element signature="method#update#0;class#TicketRepository#0" expanded="false" />
+            <element signature="method#getAll#0;class#TicketRepository#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+          <folding>
+            <element signature="method#Ticket#1;class#Ticket#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,78 +1180,32 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="81">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/routes.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/TicketRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/model/staff/Route.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="385">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/RouteRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/dao/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
+            <element signature="method#Route#0;class#Route#0" expanded="false" />
+            <element signature="method#Route#1;class#Route#0" expanded="false" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/airfare/mvc/M.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="36" column="52" lean-forward="false" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+        <state relative-caret-position="405">
+          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1542474584016" expanded="true" signature="982:1162" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/files/user.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

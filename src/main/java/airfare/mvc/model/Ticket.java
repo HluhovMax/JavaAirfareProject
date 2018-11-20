@@ -2,6 +2,7 @@ package airfare.mvc.model;
 
 import airfare.mvc.model.staff.CabineType;
 import airfare.mvc.model.staff.Route;
+import airfare.mvc.model.staff.Status;
 import airfare.mvc.model.staff.User;
 
 import java.math.BigDecimal;
@@ -10,21 +11,31 @@ import java.math.BigDecimal;
  * Created by Max Hluhov on 12.11.2018.
  */
 public class Ticket {
+    private Long id;
     private User user;
     private Route route;
     private BigDecimal price;
     private CabineType cabineType;
-    private boolean status;
+    private Status status;
 
     public Ticket() {
     }
 
-    public Ticket(User user, Route route, BigDecimal price, CabineType cabineType, boolean status) {
+    public Ticket(Long id, User user, Route route, BigDecimal price, CabineType cabineType, Status status) {
+        this.id = id;
         this.user = user;
         this.route = route;
         this.price = price;
         this.cabineType = cabineType;
         this.status = status;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public void setUser(User user) {
@@ -43,10 +54,6 @@ public class Ticket {
         this.cabineType = cabineType;
     }
 
-    public void setStatus(boolean status) {
-        this.status = status;
-    }
-
     public User getUser() {
         return user;
     }
@@ -63,13 +70,23 @@ public class Ticket {
         return cabineType;
     }
 
-    public boolean getStatus() {
+    public Status getStatus() {
         return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
     @Override
     public String toString() {
-        return ""+user + route + price + cabineType + status + "/";
+        return "Ticket{" +
+                "id=" + id +
+                ", user=" + user +
+                ", route=" + route +
+                ", price=" + price +
+                ", cabineType=" + cabineType +
+                ", status=" + status +
+                '}';
     }
-
 }
