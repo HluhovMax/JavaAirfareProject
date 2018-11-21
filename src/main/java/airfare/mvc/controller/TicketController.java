@@ -1,5 +1,6 @@
 package airfare.mvc.controller;
 
+import airfare.mvc.model.Ticket;
 import airfare.mvc.model.staff.CabineType;
 import airfare.mvc.service.TicketService;
 
@@ -18,5 +19,10 @@ public class TicketController {
                      CabineType cabineType) {
         ticketService.createTicket(from, to, depDate,
                 arrivalDate, name, lastName, cabineType);
+    }
+
+    public Ticket get(Long id) {
+        Ticket ticket = ticketService.returnTicket(id);
+        return ticket;
     }
 }

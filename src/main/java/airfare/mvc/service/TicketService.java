@@ -34,4 +34,14 @@ public class TicketService{
         Ticket ticket = ticketBuilder.buildTicket(name, lastName, route, cabineType);
         ticketRepository.save(ticket);
     }
+
+    public Ticket returnTicket(Long id) {
+        Ticket ticket = ticketRepository.getById(id);
+        deleteTicket(id);
+        return ticket;
+    }
+
+    public void deleteTicket(Long id) {
+        ticketRepository.delete(id);
+    }
 }

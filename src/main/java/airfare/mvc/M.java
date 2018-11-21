@@ -12,9 +12,5 @@ public class M {
         ConsoleHelper ch = new ConsoleHelper();
 
         ch.run();
-//        RouteRepository routeRepository = new RouteRepository();
-//
-//        routeRepository.save(new Route(6666L, "Kyiv", "Lviv", "23-11-2018 15:00:00",
-//                "23-11-2018 17:00:00"));
     }
 }
