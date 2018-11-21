@@ -7,7 +7,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 public class RouteRepository {
@@ -187,31 +191,41 @@ public class RouteRepository {
             String to,
             String depDate,
             String arrivalDate) {
-        Route route;
+        Route route = new Route();
         JavaIOUtil copy = (JavaIOUtil) original.copy();
-        String fileTostring;
+        String fileToString;
         List<String> items = new ArrayList<>();
         try (BufferedReader reader =
                      copy.reader()) {
-            while ((fileTostring = reader.readLine()) != null) {
-                fileTostring = fileTostring.trim();
-                if (fileTostring.length() != 0) {
-                    items.add(fileTostring);
+            while ((fileToString = reader.readLine()) != null) {
+                fileToString = fileToString.trim();
+                if (fileToString.length() != 0) {
+                    items.add(fileToString);
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+        SimpleDateFormat sdf = new SimpleDateFormat("dd-M-yyyy" +
+                " hh:mm:ss");
+        Date depature = new Date();
+        Date arrival = new Date();
+        try {
+            depature = sdf.parse(depDate);
+            arrival = sdf.parse(arrivalDate);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
         for (String s : items) {
             String[] arr = s.split(",");
-            if ((from.equalsIgnoreCase(arr[1]))
-                    && (to.equalsIgnoreCase(arr[2]))
-                    && (depDate.equalsIgnoreCase(arr[3]))
-                    && (arrivalDate.equalsIgnoreCase(arr[4]))) {
-                route = new Route(Long.valueOf(arr[0]), arr[1], arr[2], arr[3], arr[4]);
-                return route;
+            if (from.equals(arr[1])
+                    && to.equals(arr[2])
+                    && depature.equals(arr[3])
+                    && arrival.equals(arr[4])) {
+                route = new Route(Long.valueOf(arr[0]),
+                        arr[1], arr[2], arr[3], arr[4]);
             }
         }
-        return null;
+        return route;
     }
 }

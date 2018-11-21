@@ -29,7 +29,7 @@ public class Route {
             depatureDate = spf.parse(dep);
             arrivalDate = spf.parse(arr);
         } catch (ParseException e) {
-            System.out.println();
+            System.out.println("");
         }
 
     }

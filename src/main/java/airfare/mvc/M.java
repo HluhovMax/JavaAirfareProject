@@ -1,27 +1,20 @@
 package airfare.mvc;
 
 
-import airfare.mvc.dao.TicketRepository;
-import airfare.mvc.model.Ticket;
-import airfare.mvc.model.staff.CabineType;
+import airfare.mvc.dao.RouteRepository;
 import airfare.mvc.model.staff.Route;
-import airfare.mvc.model.staff.Status;
-import airfare.mvc.model.staff.User;
-
-import java.math.BigDecimal;
 
 /**
  * Created by Max Hluhov on 14.11.2018.
  */
 public class M {
     public static void main(String[] args) {
-        TicketRepository ticketRepository = new TicketRepository();
+        ConsoleHelper ch = new ConsoleHelper();
 
-        ticketRepository.update(new Ticket(1488L, new User(3L, "Ivan", "Ivanov"),
-                new Route(44L, "Kyiv", "Riga", "25-12-2018 10:00:00",
-                        "25-12-2018 11:00:00"), new BigDecimal(350),
-                CabineType.B_CLASS, Status.BOUGHT));
-
-
+        ch.run();
+//        RouteRepository routeRepository = new RouteRepository();
+//
+//        routeRepository.save(new Route(6666L, "Kyiv", "Lviv", "23-11-2018 15:00:00",
+//                "23-11-2018 17:00:00"));
     }
 }

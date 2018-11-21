@@ -8,11 +8,9 @@ import java.util.Scanner;
 
 public class RouteService {
     private RouteRepository routeRepository;
-    private Scanner scanner;
 
     public RouteService() {
         routeRepository = new RouteRepository();
-        scanner = new Scanner(System.in);
     }
 
     public Route findRoute(String from,

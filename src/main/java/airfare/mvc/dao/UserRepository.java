@@ -72,4 +72,29 @@ public class UserRepository {
         }
         return null;
     }
+
+    public List<User> getAll() {
+        User user;
+        List<User> userList = new ArrayList<>();
+        JavaIOUtil copy = (JavaIOUtil) original.copy();
+        String fileTostring;
+        List<String> items = new ArrayList<>();
+        try (BufferedReader reader =
+                     copy.reader()) {
+            while ((fileTostring = reader.readLine()) != null) {
+                fileTostring = fileTostring.trim();
+                if (fileTostring.length() != 0) {
+                    items.add(fileTostring);
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        for (String s : items) {
+            String[] arr = s.split(",");
+            user = new User(Long.valueOf(arr[0]), arr[1], arr[2]);
+            userList.add(user);
+        }
+        return userList;
+    }
 }
