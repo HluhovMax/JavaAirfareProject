@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Created by Max Hluhov on 15.11.2018.
  */
-public class JavaIOUtil implements Copyable {
+public class JavaIOUtil {
     BufferedReader reader;
     String filePath;
 
@@ -24,7 +24,6 @@ public class JavaIOUtil implements Copyable {
         return reader;
     }
 
-    @Override
     public Object copy() {
         JavaIOUtil copy = new JavaIOUtil(filePath);
         return copy;

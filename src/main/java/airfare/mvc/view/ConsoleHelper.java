@@ -1,4 +1,4 @@
-package airfare.mvc;
+package airfare.mvc.view;
 
 import airfare.mvc.dao.RouteRepository;
 import airfare.mvc.model.Ticket;
